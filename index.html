@@ -21,7 +21,30 @@
 <body>
 <header>
 <img scr="images/newteam.jpg" width="100%" height="243px" alt="Bulls">
-<table id="game" cellspacing="5" cellpadding="0" class="hide">
+<div id="options">
+	<h1>Jeopardy Game</h1>
+	<label>Number of Teams</label>
+	<select name="teams" id="teams">
+		<option value="1">1 team</option>		
+		<option value="2">2 teams</option>
+		<option value="3">3 teams</option>
+		<option value="4">4 teams</option>
+		<option value="5">5 teams</option>
+		<option value="6">6 teams</option>
+		<option value="7">7 teams</option>
+		<option value="8">8 teams</option>
+		<option value="9">9 teams</option>
+		<option value="10">10 teams</option>	
+		<option value="11">11 teams</option>
+		<option value="12">12 teams</option>	
+	</select>
+	<input class="submit" type="button" id="submit" value="Start" onclick="game.init()" />
+	<p align="center">Press F11 for full-screen mode</p>
+	
+	<div class="clear"></div>
+</div>
+
+	<table id="game" cellspacing="5" cellpadding="0" class="hide">
 	<thead>
 		<tr>
 		
@@ -274,28 +297,6 @@
 	</tbody>
 </table>
 
-<div id="options">
-	<h1>Jeopardy Game</h1>
-	<label>Number of Teams</label>
-	<select name="teams" id="teams">
-		<option value="1">1 team</option>		
-		<option value="2">2 teams</option>
-		<option value="3">3 teams</option>
-		<option value="4">4 teams</option>
-		<option value="5">5 teams</option>
-		<option value="6">6 teams</option>
-		<option value="7">7 teams</option>
-		<option value="8">8 teams</option>
-		<option value="9">9 teams</option>
-		<option value="10">10 teams</option>	
-		<option value="11">11 teams</option>
-		<option value="12">12 teams</option>	
-	</select>
-	<input class="submit" type="button" id="submit" value="Start" onclick="game.init()" />
-	<p align="center">Press F11 for full-screen mode</p>
-	
-	<div class="clear"></div>
-</div>
 
 <div id="stats">
 </div>
