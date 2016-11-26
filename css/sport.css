@@ -84,7 +84,7 @@ textarea#title {
 /*headings for the column categories*/
         #game thead th {
 	vertical-align: middle;
-	background-color:#090df9;
+	background-image:"";
 	padding:5px;
 	text-align:center;
 	width:19%;
@@ -118,7 +118,7 @@ textarea#title {
     border:3px solid #fff;
     background-color: #f90909;
   /*# made background images */
-	background-image:"images/teams.jpg";
+	background-image:url(../images/teams.jpg);
 	background-position: center;
     background-repeat: no-repeat;
 }
