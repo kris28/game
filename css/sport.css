@@ -123,7 +123,7 @@ textarea#title {
 }
 /*numbers for the game category*/
 #game h3 {
-	color:#FF0000;
+	color:#FFf;
 	text-align:center;
 	font-size:20px;
 	font-weight:bold;
@@ -135,7 +135,7 @@ textarea#title {
 	padding:5px;
 	text-align:center;
 	width:19%;
-	color:#f90909;
+	color:#fff;
         text-shadow:1px 1px #000;
 	height:60px;
 	font-size:20px;
