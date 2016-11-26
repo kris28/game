@@ -270,7 +270,7 @@ textarea#title {
 #stats {
 	position:fixed;
 	bottom:0;
-	background-color:#f90909;
+	background-color:#000;
 	width:100%;
 	text-align:center;
 	height:100px;
