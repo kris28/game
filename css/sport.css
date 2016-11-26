@@ -7,6 +7,51 @@
 	padding:10px 0 125px 0px;
 	color:#ff0000;
     font-family:Verdana, Arial, Helvetica, sans-serif;
+}#navigation ul{
+	width:auto; 
+	height:32px; 
+	background-color:#f00;
+	text-align:center;
+	list-style-type: none;
+}
+#navigation ul li{
+	float:left; 
+	width:100px; 
+	height:32px; 
+	padding:0px;
+	border-right:2px solid #000;
+}
+#navigation ul li a{
+	display:block; 
+	width:100px; 
+	height:32px; 
+	background-color:#f00; 
+	color:#000; 
+	font-size:11px; 
+	font-weight:bold; 
+	line-height:32px; 
+	text-transform:uppercase; 
+	text-align:center; 
+	text-decoration:none;
+}
+#navigation ul li a:hover, active{
+	background-color:#fff; 
+	color:#f00; 
+	text-decoration:none;
+}
+
+#navigation ul li.home{
+	display:block; 
+	width:100px; 
+	height:32px; 
+	background-color:#f00;  
+	font-size:11px; 
+	font-weight:bold; 
+	line-height:32px; 
+	color:#000; 
+	text-decoration:none; 
+	text-transform:uppercase; 
+	text-align:center;
 }
 /* added the h1*/
 h1 {
