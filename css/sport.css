@@ -12,7 +12,7 @@
 h1 {
     text-align: center;
     color:#000;
-    text-shadow:2px 2px #818181;
+    text-shadow:2px 2px #f90909;
     font-family:Verdana, Arial, Helvetica, sans-serif;
 }
 
@@ -84,7 +84,7 @@ textarea#title {
 /*headings for the column categories*/
         #game thead th {
 	vertical-align: middle;
-	background-color:#818181;
+	background-color:#f90909;
 	padding:5px;
 	text-align:center;
 	width:19%;
@@ -97,7 +97,7 @@ textarea#title {
 }
 #game thead td {
 	vertical-align: middle;
-	background-color:#818181;
+	background-color:#f90909;
 	padding:5px;
 	text-align:center;
 	width:19%;
@@ -116,13 +116,13 @@ textarea#title {
     width:100px;
     height:100px;
     border:3px solid #fff;
-    background-color: #818181;
+    background-color: #f90909;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #game tbody td.ie-hack {
-	border:3px solid #818181;
+	border:3px solid #f90909;
 }
 
 /*#game tbody td.clean:hover {
@@ -146,7 +146,7 @@ textarea#title {
 
 #game tfoot td {
 	text-align: center;
-	background-color:#818181;
+	background-color:#f90909;
 }
 
 .submit {
@@ -157,7 +157,7 @@ textarea#title {
 	display: none;
 	background-color:#fff;
 	padding:5px;
-	border:2px dashed #818181;
+	border:2px dashed #f90909;
 }
 
 #modal {
@@ -183,7 +183,7 @@ textarea#title {
 	font-size:50px;
 	text-align:center;
 	color:#000;
-        text-shadow:2px 2px #818181;
+        text-shadow:2px;
 }
 
 #options label {
@@ -205,7 +205,7 @@ textarea#title {
 }
 #options p {
 	margin-bottom:0px;
-	color:#818181;
+	color:#f90909;
 	font-weight: bold;	
 }
 
@@ -221,7 +221,7 @@ textarea#title {
 #stats {
 	position:fixed;
 	bottom:0;
-	background-color:#818181;
+	background-color:#f90909;
 	width:100%;
 	text-align:center;
 	height:100px;
@@ -241,7 +241,7 @@ textarea#title {
     text-align:center;
     color: #fff;
     font-family: Verdana, Arial, Helvetica, sans-serif;
-    background-color:#818181;
+    background-color:#f90909;
     width:100%;
     display:block;
 }
@@ -251,7 +251,7 @@ textarea#title {
 }
 
 #stats table th {
-	background-color:#818181;
+	background-color:#f90909;
 	border-bottom:1px solid black;
 }
 
@@ -262,7 +262,7 @@ input.add-points {
 	font-size:20px;
 	cursor:pointer;
 	padding:0px;
-	background-color:#818181;
+	background-color:#f90909;
 	border:none;
 	display:inline;
 }
@@ -274,7 +274,7 @@ input.subtract-points {
 	font-size:20px;
 	cursor:pointer;	
 	padding:0px;
-	background-color:#818181;
+	background-color:#f90909;
 	border:none;
 	display:inline;
 }
@@ -283,7 +283,7 @@ input.subtract-points {
 	display:none;
 	height:100%;
 	width:100%;
-	background-color:#818181;
+	background-color:#f90909;
 	color:#FFFFFF;
 	text-align:center;
 }
