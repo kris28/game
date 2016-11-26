@@ -1,6 +1,6 @@
 /*removed the image and did straight background*/
     body {
-	background-color:#FF0000;
+	background-image:("images/teams.jpg");
 	height:auto;
 	margin-top: 0px;
 	padding:10px 0 125px 0px;
